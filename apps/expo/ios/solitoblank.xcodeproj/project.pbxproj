@@ -26,13 +26,10 @@
 		1F39BCAA28895DD200E41952 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		1F39BCAB28895DD200E41952 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		41E7081C43A61E8DECB81756 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D95A6C5031B2448E7EA58 /* ExpoModulesProvider.swift */; };
 		69832F128DBB46C4A325D7F8 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460B245E5A643EEBA3EE939 /* noop-file.swift */; };
 		9E37863947E311B3A317D60D /* libPods-solitoblankCommonPods-solitoblank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B530DA5E44A305A06674B49 /* libPods-solitoblankCommonPods-solitoblank.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		CDC16BC390A64483B0649DEE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEAD9C4BCDDF6213395C2C4 /* ExpoModulesProvider.swift */; };
-		D132318764D7D238726B8966 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460C4A9B8E9BB2CAEB464A5 /* ExpoModulesProvider.swift */; };
-		D4D69D17BFAD772F522D49DE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0820381B8258C058577A5 /* ExpoModulesProvider.swift */; };
 		EE86423272E4677DD181E1F1 /* libPods-solitoblankCommonPods-TrueFanDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD395A9ACF9A525D03A6BE9F /* libPods-solitoblankCommonPods-TrueFanDev.a */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +47,10 @@
 		1F39BCB128895DD200E41952 /* TrueFanQa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueFanQa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39BCB228895DD200E41952 /* TrueFanQa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TrueFanQa-Info.plist"; path = "/Users/RahulSingh/Desktop/react-native-web-quiz/apps/expo/ios/TrueFanQa-Info.plist"; sourceTree = "<absolute>"; };
 		3492D5B27C4C4C78C259CA60 /* Pods-solitoblankCommonPods-TrueFanDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solitoblankCommonPods-TrueFanDev.release.xcconfig"; path = "Target Support Files/Pods-solitoblankCommonPods-TrueFanDev/Pods-solitoblankCommonPods-TrueFanDev.release.xcconfig"; sourceTree = "<group>"; };
-		354D95A6C5031B2448E7EA58 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-solitoblank/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		3B02717BC2C5C813670577C7 /* Pods-solitoblankCommonPods-TrueFanDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solitoblankCommonPods-TrueFanDev.debug.xcconfig"; path = "Target Support Files/Pods-solitoblankCommonPods-TrueFanDev/Pods-solitoblankCommonPods-TrueFanDev.debug.xcconfig"; sourceTree = "<group>"; };
 		3B530DA5E44A305A06674B49 /* libPods-solitoblankCommonPods-solitoblank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-solitoblankCommonPods-solitoblank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F941328491AD8269B57F148 /* Pods-solitoblankCommonPods-TrueFanQa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solitoblankCommonPods-TrueFanQa.release.xcconfig"; path = "Target Support Files/Pods-solitoblankCommonPods-TrueFanQa/Pods-solitoblankCommonPods-TrueFanQa.release.xcconfig"; sourceTree = "<group>"; };
 		728D3FDC19FB4844BC3EC703 /* solitoblank-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "solitoblank-Bridging-Header.h"; path = "solitoblank/solitoblank-Bridging-Header.h"; sourceTree = "<group>"; };
-		83B0820381B8258C058577A5 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-solitoblank-TrueFanQa/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		8460C4A9B8E9BB2CAEB464A5 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-solitoblank-TrueFanDev/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		90D6F59971218729A1AA0A1D /* Pods-solitoblankCommonPods-TrueFanQa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solitoblankCommonPods-TrueFanQa.debug.xcconfig"; path = "Target Support Files/Pods-solitoblankCommonPods-TrueFanQa/Pods-solitoblankCommonPods-TrueFanQa.debug.xcconfig"; sourceTree = "<group>"; };
 		96E7C2C0F95482B4ABB1F938 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-solitoblankCommonPods-TrueFanQa/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = solitoblank/SplashScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +95,6 @@
 		010B8B2DF99334DCBF122D45 /* TrueFanDev */ = {
 			isa = PBXGroup;
 			children = (
-				8460C4A9B8E9BB2CAEB464A5 /* ExpoModulesProvider.swift */,
 				C0D3A713A773CF6F47E23A87 /* ExpoModulesProvider.swift */,
 			);
 			name = TrueFanDev;
@@ -110,7 +103,6 @@
 		04A93F44D84453B91B7A2870 /* TrueFanQa */ = {
 			isa = PBXGroup;
 			children = (
-				83B0820381B8258C058577A5 /* ExpoModulesProvider.swift */,
 				96E7C2C0F95482B4ABB1F938 /* ExpoModulesProvider.swift */,
 			);
 			name = TrueFanQa;
@@ -136,7 +128,6 @@
 		1E957E5BF71BCA90982797C5 /* solitoblank */ = {
 			isa = PBXGroup;
 			children = (
-				354D95A6C5031B2448E7EA58 /* ExpoModulesProvider.swift */,
 				0CEAD9C4BCDDF6213395C2C4 /* ExpoModulesProvider.swift */,
 			);
 			name = solitoblank;
@@ -594,7 +585,6 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				69832F128DBB46C4A325D7F8 /* noop-file.swift in Sources */,
-				41E7081C43A61E8DECB81756 /* ExpoModulesProvider.swift in Sources */,
 				CDC16BC390A64483B0649DEE /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,7 +596,6 @@
 				1F39BC8D28895D9B00E41952 /* AppDelegate.m in Sources */,
 				1F39BC8E28895D9B00E41952 /* main.m in Sources */,
 				1F39BC9028895D9B00E41952 /* noop-file.swift in Sources */,
-				D132318764D7D238726B8966 /* ExpoModulesProvider.swift in Sources */,
 				0E1D6DEB32CE4CC76650AD1B /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +607,6 @@
 				1F39BCA228895DD200E41952 /* AppDelegate.m in Sources */,
 				1F39BCA328895DD200E41952 /* main.m in Sources */,
 				1F39BCA528895DD200E41952 /* noop-file.swift in Sources */,
-				D4D69D17BFAD772F522D49DE /* ExpoModulesProvider.swift in Sources */,
 				15FC6331D7969A7D68AD0553 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
