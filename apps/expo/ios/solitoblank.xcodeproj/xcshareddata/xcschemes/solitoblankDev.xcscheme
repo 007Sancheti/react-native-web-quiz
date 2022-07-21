@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1340"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -11,6 +11,15 @@
             <ActionContent
                title = "Run Script"
                scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;cp &quot;${PROJECT_DIR}/../.env.dev&quot; &quot;${PROJECT_DIR}/../.env.dev&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "AD28D00E288974980041464F"
+                     BuildableName = "solitoblankDev.app"
+                     BlueprintName = "solitoblankDev"
+                     ReferencedContainer = "container:solitoblank.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -23,9 +32,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "solitoblank.app"
-               BlueprintName = "solitoblank"
+               BlueprintIdentifier = "AD28D00E288974980041464F"
+               BuildableName = "solitoblankDev.app"
+               BlueprintName = "solitoblankDev"
                ReferencedContainer = "container:solitoblank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,13 +50,13 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;cp &quot;${PROJECT_DIR}/../.env.dev&quot; &quot;${PROJECT_DIR}/../.env.dev&quot;&#10;">
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;cp &quot;${PROJECT_DIR}/../.env.development&quot; &quot;${PROJECT_DIR}/../.env.development&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "solitoblank.app"
-                     BlueprintName = "solitoblank"
+                     BlueprintIdentifier = "AD28D00E288974980041464F"
+                     BuildableName = "solitoblankDev.app"
+                     BlueprintName = "solitoblankDev"
                      ReferencedContainer = "container:solitoblank.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -55,16 +64,6 @@
          </ExecutionAction>
       </PreActions>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "solitoblankTests.xctest"
-               BlueprintName = "solitoblankTests"
-               ReferencedContainer = "container:solitoblank.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -81,9 +80,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "solitoblank.app"
-            BlueprintName = "solitoblank"
+            BlueprintIdentifier = "AD28D00E288974980041464F"
+            BuildableName = "solitoblankDev.app"
+            BlueprintName = "solitoblankDev"
             ReferencedContainer = "container:solitoblank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -98,9 +97,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "solitoblank.app"
-            BlueprintName = "solitoblank"
+            BlueprintIdentifier = "AD28D00E288974980041464F"
+            BuildableName = "solitoblankDev.app"
+            BlueprintName = "solitoblankDev"
             ReferencedContainer = "container:solitoblank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

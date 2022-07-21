@@ -7,7 +7,17 @@ platform :ios, '12.0'
 require 'json'
 podfile_properties = JSON.parse(File.read('./Podfile.properties.json')) rescue {}
 
-target 'solitoblank' do
+abstract_target 'solitoblankCommonPods' do
+
+  target 'solitoblankDev' do
+  end
+ 
+  target 'solitoblankQa' do
+  end
+ 
+  target 'solitoblank' do
+  end
+
   use_expo_modules!
   config = use_native_modules!
 

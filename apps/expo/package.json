@@ -35,6 +35,9 @@
     "android:prod": "concurrently \"yarn start\" \"react-native run-android --variant=proddebug --no-packager\"",
     "android:prod-release": "concurrently \"yarn start\" \"react-native run-android --variant=prodrelease --no-packager\"",
     "ios": "concurrently \"yarn start\" \"react-native run-ios --no-packager\"",
+    "ios:qa": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblankQa --no-packager\"",
+    "ios:dev": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblankDev --no-packager\"",
+    "ios:prod": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblank --no-packager\"",
     "web": "expo start --web"
   },
   "main": "index.js",
