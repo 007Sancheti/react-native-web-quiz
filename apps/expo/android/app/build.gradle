@@ -1,5 +1,16 @@
 apply plugin: "com.android.application"
 
+project.ext.envConfigFiles = [
+    proddebug: ".env.prod",
+    prodrelease: ".env.prod",
+    devrelease: ".env.dev",
+    devdebug: ".env.dev",
+    qarelease: ".env.qa",
+    qadebug: ".env.qa"
+]
+
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 import com.android.build.OutputFile
 
 /**
@@ -131,13 +142,35 @@ def enableHermes = project.ext.react.get("enableHermes", false);
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
+    flavorDimensions "default"
+    productFlavors {
+        prod {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationIdSuffix ".live"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.truefan.react"
+        }
+        qa {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationIdSuffix ".qa"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.truefan.react"
+        }
+        dev {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationIdSuffix ".dev"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.truefan.react"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
-        applicationId 'com.truefan.react.live'
+        applicationId 'com.truefan.react'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -170,6 +203,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
