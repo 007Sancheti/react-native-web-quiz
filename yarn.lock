@@ -1197,7 +1197,14 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.14.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.14.0":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
+  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.8.4":
   version "7.17.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
   integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
@@ -1332,7 +1339,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@expo/config-plugins@4.0.18", "@expo/config-plugins@^4.0.2":
+"@expo/config-plugins@4.0.18":
   version "4.0.18"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.0.18.tgz#80cf6a3aed83e78f714ad097d80e5a7cca48591a"
   integrity sha512-tW4bnrnKhn+PPHF8wf1KAoubICAVUHW8CcagvyFqaRIzeh6yavMIOsQShxOVTbgx7LzSyymZ1nEs45yCGAiMfA==
@@ -1397,7 +1404,7 @@
     xcode "^3.0.1"
     xml2js "0.4.23"
 
-"@expo/config-plugins@^4.0.14":
+"@expo/config-plugins@^4.0.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.5.tgz#9d357d2cda9c095e511b51583ede8a3b76174068"
   integrity sha512-RVvU40RtZt12HavuDAe+LDIq9lHj7sheOfMEHdmpJ/uTA8pgvkbc56XF6JHQD+yRr6+uhhb+JnAasGq49dsQbw==
@@ -1964,6 +1971,13 @@
   integrity sha512-mDtWhCcpxzrZhA95f6zi0pnBsjBEZW1LKZWfxVXG0UfaWpPxDBCKowNk2xjRTytckZeVhjmPJPtBU+8QNQcR0A==
   dependencies:
     merge-options "^3.0.4"
+
+"@react-native-community/async-storage@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.12.1.tgz#25f821b4f6b13abe005ad67e47c6f1cee9f27b24"
+  integrity sha512-70WGaH3PKYASi4BThuEEKMkyAgE9k7VytBqmgPRx3MzJx9/MkspwqJGmn3QLCgHLIFUgF1pit2mWICbRJ3T3lg==
+  dependencies:
+    deep-assign "^3.0.0"
 
 "@react-native-community/cli-debugger-ui@^5.0.1":
   version "5.0.1"
@@ -4850,6 +4864,13 @@ dedent@^0.6.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.6.0.tgz#0e6da8f0ce52838ef5cec5c8f9396b0c1b64a3cb"
   integrity sha512-cSfRWjXJtZQeRuZGVvDrJroCR5V2UvBNUMHsPCdNYzuAG8b9V8aAy3KUcdQrGQPXs17Y+ojbPh1aOCplg9YR9g==
 
+deep-assign@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/deep-assign/-/deep-assign-3.0.0.tgz#c8e4c4d401cba25550a2f0f486a2e75bc5f219a2"
+  integrity sha512-YX2i9XjJ7h5q/aQ/IM9PEwEnDqETAIYbggmdDB3HLTlSgo1CxPsj6pvhPG68rq6SVE0+p+6Ywsm5fTYNrYtBWw==
+  dependencies:
+    is-obj "^1.0.0"
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
@@ -5588,12 +5609,12 @@ expo-asset@~8.4.6:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
-expo-av@^11.2.3:
-  version "11.2.3"
-  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-11.2.3.tgz#254242dae76e3cd60ef9d9c33618e4a12d37aa33"
-  integrity sha512-ptTe96s33Ct0eOsOmNTvtaWFx4B0SDkQmDfPbiuX/C2afqbLQf8geEopw7BRO8ZZl7Qe3qBMH6YLHXKTkZkTyQ==
+expo-av@~10.2.0:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-10.2.1.tgz#c08bce464d673d0e90c68cac082bfb75a9437f25"
+  integrity sha512-thrkHVg4HVn8L+jHKVnXYd4TLkJQblFE8QXd3d1hwrYG63gehQT2nK4DM0Frl50EcdV8YN9XjhwHobtK5oMc9A==
   dependencies:
-    "@expo/config-plugins" "^4.0.14"
+    "@expo/config-plugins" "^4.0.2"
 
 expo-constants@~13.0.0, expo-constants@~13.0.2:
   version "13.0.2"
@@ -6988,6 +7009,11 @@ is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+
+is-obj@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+  integrity sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==
 
 is-obj@^2.0.0:
   version "2.0.0"

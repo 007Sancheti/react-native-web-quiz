@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
     "app": "*",
     "expo": "^44.0.0",
     "expo-splash-screen": "~0.14.1",
@@ -24,8 +25,8 @@
   },
   "scripts": {
     "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "web": "expo start --web"
   },
   "main": "index.js",
