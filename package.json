@@ -13,7 +13,10 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "native": "cd apps/expo && expo start",
+    "native": "cd apps/expo && npx react-native start",
     "web": "cd apps/next && yarn next"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1"
   }
 }

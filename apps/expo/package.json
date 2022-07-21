@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
     "app": "*",
+    "concurrently": "^7.3.0",
     "expo": "^44.0.0",
     "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
@@ -8,6 +10,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-config": "^1.4.6",
     "react-native-gesture-handler": "~2.1.0",
     "react-native-reanimated": "~2.3.1",
     "react-native-safe-area-context": "3.3.2",
@@ -23,9 +26,15 @@
     "typescript": "~4.3.5"
   },
   "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
+    "start": "react-native start",
+    "android": "concurrently \"yarn start\" \"react-native run-android --no-packager\"",
+    "android:qa": "concurrently \"yarn start\" \"react-native run-android --variant=qadebug --no-packager\"",
+    "android:qa-release": "concurrently \"yarn start\" \"react-native run-android --variant=qarelease --no-packager\"",
+    "android:dev": "concurrently \"yarn start\" \"react-native run-android --variant=devdebug --no-packager\"",
+    "android:dev-release": "concurrently \"yarn start\" \"react-native run-android --variant=devrelease --no-packager\"",
+    "android:prod": "concurrently \"yarn start\" \"react-native run-android --variant=proddebug --no-packager\"",
+    "android:prod-release": "concurrently \"yarn start\" \"react-native run-android --variant=prodrelease --no-packager\"",
+    "ios": "concurrently \"yarn start\" \"react-native run-ios --no-packager\"",
     "web": "expo start --web"
   },
   "main": "index.js",

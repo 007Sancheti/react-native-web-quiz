@@ -5,9 +5,12 @@
     "version": "1.0.0",
     "sdkVersion": "44.0.0",
     "scheme": "solito-blank",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
-      "bundleIdentifier": "com.solito.blank"
+      "bundleIdentifier": "com.truefan.react.live"
     },
     "packagerOpts": {
       "config": "metro.config.js",
@@ -24,6 +27,9 @@
         "wasm",
         "svg"
       ]
+    },
+    "android": {
+      "package": "com.truefan.react.live"
     }
   }
 }

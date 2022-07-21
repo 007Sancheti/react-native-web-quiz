@@ -20,23 +20,17 @@ export function NativeNavigation() {
       <Stack.Screen
         name="quiz-start"
         component={QuizStartScreen}
-        options={{
-          title: 'Quiz Start',
-        }}
+        options={{ headerShown: false }}
       />
       <Stack.Screen
         name="quiz"
         component={QuizScreen}
-        options={{
-          title: 'Quiz',
-        }}
+        options={{ headerShown: false }}
       />
       <Stack.Screen
         name="home"
         component={HomeScreen}
-        options={{
-          title: 'Home',
-        }}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   )
