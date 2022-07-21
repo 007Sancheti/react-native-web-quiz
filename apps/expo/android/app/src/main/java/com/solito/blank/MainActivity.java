@@ -1,4 +1,4 @@
-package com.solito.blank;
+package com.truefan.react.live;
 
 import android.os.Build;
 import android.os.Bundle;
