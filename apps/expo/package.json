@@ -28,7 +28,13 @@
   "scripts": {
     "start": "react-native start",
     "android": "concurrently \"yarn start\" \"react-native run-android --no-packager\"",
-    "ios": "react-native run-ios",
+    "android:qa": "concurrently \"yarn start\" \"react-native run-android --variant=qadebug --no-packager\"",
+    "android:qa-release": "concurrently \"yarn start\" \"react-native run-android --variant=qarelease --no-packager\"",
+    "android:dev": "concurrently \"yarn start\" \"react-native run-android --variant=devdebug --no-packager\"",
+    "android:dev-release": "concurrently \"yarn start\" \"react-native run-android --variant=devrelease --no-packager\"",
+    "android:prod": "concurrently \"yarn start\" \"react-native run-android --variant=proddebug --no-packager\"",
+    "android:prod-release": "concurrently \"yarn start\" \"react-native run-android --variant=prodrelease --no-packager\"",
+    "ios": "concurrently \"yarn start\" \"react-native run-ios --no-packager\"",
     "web": "expo start --web"
   },
   "main": "index.js",

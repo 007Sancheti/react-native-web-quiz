@@ -1,4 +1,4 @@
-package com.truefan.react.live;
+package com.truefan.react;
 
 import android.app.Application;
 import android.content.Context;
