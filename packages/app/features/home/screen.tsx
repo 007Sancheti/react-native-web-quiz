@@ -1,6 +1,5 @@
 import PrimaryButton from 'app/components/PrimaryButtonLink'
 import { useSx, View, Text } from 'dripsy'
-import { Audio } from 'expo-av'
 import { useEffect, useState } from 'react'
 import { Button } from 'react-native'
 
