@@ -7,7 +7,7 @@ import {
   getRandomQuesByQuizId,
   addQuizParticipant,
   addQuizParticipantQues,
-} from 'app/api/quizService'
+} from '../../api/quizService'
 import { decryptData } from 'app/utils/decryptData'
 import Loader from 'app/components/Loader/Loader'
 

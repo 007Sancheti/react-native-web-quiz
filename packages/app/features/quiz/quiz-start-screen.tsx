@@ -1,7 +1,7 @@
 import PrimaryButtonLink from 'app/components/PrimaryButtonLink'
 import { View } from 'dripsy'
 import { useEffect } from 'react'
-import { userLogin } from 'app/api/authService'
+import { userLogin } from '../../api/authService'
 
 export function QuizStartScreen({ navigation }) {
 
