@@ -38,7 +38,10 @@
     "ios:qa": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblankQa --no-packager\"",
     "ios:dev": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblankDev --no-packager\"",
     "ios:prod": "concurrently \"yarn start\" \"react-native run-ios --scheme=solitoblank --no-packager\"",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build-dev:android": "export ENVFILE=.env.dev && cd android && ./gradlew assembleRelease",
+    "build-dev:qa": "export ENVFILE=.env.qa && cd android && ./gradlew assembleRelease",
+    "build-dev:prod": "export ENVFILE=.env.prod && cd android && ./gradlew assembleRelease"
   },
   "main": "index.js",
   "version": "1.0.0",
