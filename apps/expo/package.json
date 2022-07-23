@@ -22,12 +22,14 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+    "react-native-flipper": "^0.155.0",
     "react-native-svg-transformer": "^1.0.0",
+    "redux-flipper": "^2.0.2",
     "typescript": "~4.3.5"
   },
   "scripts": {
     "start": "react-native start",
-    "android": "concurrently \"yarn start\" \"react-native run-android --no-packager\"",
+    "android": "concurrently \"yarn start\" \"react-native run-android --variant=devdebug --no-packager\"",
     "android:qa": "concurrently \"yarn start\" \"react-native run-android --variant=qadebug --no-packager\"",
     "android:qa-release": "concurrently \"yarn start\" \"react-native run-android --variant=qarelease --no-packager\"",
     "android:dev": "concurrently \"yarn start\" \"react-native run-android --variant=devdebug --no-packager\"",

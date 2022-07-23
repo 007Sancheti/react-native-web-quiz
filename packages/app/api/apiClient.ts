@@ -1,8 +1,18 @@
 import axios from 'axios'
 import storage from '../storage'
+import {isEmpty} from 'lodash';
+import {Config} from 'react-native-config'
 
+console.log('config', Config);
+let baseURL;
+
+if(isEmpty(Config)) {
+  baseURL = 'https://dev.truefans.in'
+} else {
+  baseURL = Config.API_BASE_URL
+}
 const instance = axios.create({
-  baseURL: 'https://dev.truefans.in',
+  baseURL,
 })
 
 const setAuthorizationHeader = (token) => {
